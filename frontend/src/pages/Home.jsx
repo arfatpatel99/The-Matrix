@@ -4,7 +4,7 @@ import About from '../components/About';
 import WhatYouLearn from '../components/WhatYouLearn';
 import AIDropshipping from '../components/AIDropshipping';
 import Course from '../components/Course';
-import TradingRoom from '../components/TradingRoom';
+import Community from '../components/Community';
 import Auth from '../components/Auth';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
@@ -17,7 +17,7 @@ const Home = () => {
       <WhatYouLearn />
       <AIDropshipping />
       <Course />
-      <TradingRoom />
+      <Community />
       <Auth />
       <Contact />
       <Footer />

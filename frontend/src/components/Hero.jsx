@@ -13,7 +13,7 @@ const Hero = () => {
       <div className="absolute inset-0 z-0">
         <img 
           src={heroData.heroImage}
-          alt="Trading Charts"
+          alt="AI Automation"
           className="w-full h-full object-cover opacity-20"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-[var(--bg-primary)] to-[var(--bg-primary)]"></div>
@@ -59,16 +59,16 @@ const Hero = () => {
           {/* Stats */}
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-3xl mx-auto pt-12 border-t" style={{ borderColor: 'var(--border-subtle)' }}>
             <div>
-              <div className="text-4xl font-bold mb-2" style={{ color: 'var(--accent-primary)' }}>500+</div>
-              <div className="text-sm" style={{ color: 'var(--text-muted)' }}>Active Members</div>
+              <div className="text-4xl font-bold mb-2" style={{ color: 'var(--accent-primary)' }}>AI-Powered</div>
+              <div className="text-sm" style={{ color: 'var(--text-muted)' }}>Automation Systems</div>
             </div>
             <div>
               <div className="text-4xl font-bold mb-2" style={{ color: 'var(--accent-primary)' }}>24/7</div>
-              <div className="text-sm" style={{ color: 'var(--text-muted)' }}>Community Support</div>
+              <div className="text-sm" style={{ color: 'var(--text-muted)' }}>Passive Income</div>
             </div>
             <div>
-              <div className="text-4xl font-bold mb-2" style={{ color: 'var(--accent-primary)' }}>100%</div>
-              <div className="text-sm" style={{ color: 'var(--text-muted)' }}>Commitment Required</div>
+              <div className="text-4xl font-bold mb-2" style={{ color: 'var(--accent-primary)' }}>Zero</div>
+              <div className="text-sm" style={{ color: 'var(--text-muted)' }}>Inventory Needed</div>
             </div>
           </div>
         </div>

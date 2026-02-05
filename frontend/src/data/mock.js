@@ -1,140 +1,103 @@
-// Mock data for The Matrix landing page
+// Mock data for The Matrix landing page - AI & Dropshipping Focus
 
 export const heroData = {
-  headline: "BREAK FREE FROM THE SYSTEM",
-  subheadline: "Master Trading. Build Wealth. Scale with AI. Control Your Destiny.",
-  description: "Join an elite community mastering trading, dropshipping, and AI automation. The Matrix is where discipline meets opportunity.",
-  ctaText: "Enter The Matrix",
+  headline: "BUILD AUTOMATED WEALTH WITH AI",
+  subheadline: "Master Dropshipping. Leverage AI Automation. Scale Infinitely.",
+  description: "Join an elite community building automated online businesses using AI-powered systems. The Matrix is where automation meets profit.",
+  ctaText: "Start Building Now",
   secondaryCtaText: "Learn More",
-  heroImage: "https://images.unsplash.com/photo-1745509267699-1b1db256601e"
+  heroImage: "https://images.unsplash.com/photo-1639389016105-2fb11199fb6b"
 };
 
 export const aboutData = {
   title: "About The Matrix",
-  subtitle: "WHERE DISCIPLINE MEETS OPPORTUNITY",
-  description: "The Matrix isn't just another course. It's a complete transformation of how you think about money, business, and success. Master trading, build automated dropshipping empires, and leverage AI tools to scale. We don't promise overnight riches. We deliver the systems, mindset, and strategies that separate winners from dreamers.",
+  subtitle: "WHERE AI MEETS E-COMMERCE",
+  description: "The Matrix isn't just another dropshipping course. It's a complete transformation using AI automation to build scalable online businesses. We don't promise overnight riches. We deliver proven systems, cutting-edge AI tools, and strategies that separate winners from dreamers.",
   principles: [
     {
-      icon: "Target",
-      title: "Discipline Over Emotion",
-      description: "Learn to trade with ice-cold precision, not fear or greed"
-    },
-    {
-      icon: "TrendingUp",
-      title: "Strategy Over Luck",
-      description: "Master proven systems that work in any market condition"
-    },
-    {
-      icon: "Shield",
-      title: "Protection Over Profits",
-      description: "Risk management comes first. Profits follow discipline"
-    },
-    {
-      icon: "Brain",
-      title: "Mindset Over Everything",
-      description: "Develop the mental edge that 99% of traders lack"
-    }
-  ]
-};
-
-export const learningData = {
-  title: "What You Will Learn",
-  subtitle: "THE COMPLETE ARSENAL",
-  modules: [
-    {
-      icon: "LineChart",
-      title: "Trading Fundamentals",
-      description: "Master chart patterns, technical analysis, and market structure. Understand what moves markets and capitalize on it.",
-      topics: ["Price Action", "Technical Analysis", "Risk Management", "Market Psychology"]
-    },
-    {
-      icon: "Package",
-      title: "Dropshipping Business Model",
-      description: "Build a profitable online store from scratch. Learn product selection, supplier sourcing, and customer acquisition systems.",
-      topics: ["Winning Products", "Store Setup", "Supplier Networks", "Order Fulfillment"]
-    },
-    {
       icon: "Sparkles",
-      title: "AI Tools for Product Research",
-      description: "Leverage AI to find viral products before the competition. Automate market research and trend analysis with cutting-edge tools.",
-      topics: ["AI Product Finders", "Trend Analysis", "Competitor Research", "Data-Driven Selection"]
+      title: "AI-Powered Research",
+      description: "Use artificial intelligence to find winning products before they saturate"
     },
     {
       icon: "Zap",
-      title: "AI Automation for Scaling",
-      description: "Scale your business with AI-powered automation. From customer service to ad optimization, let technology multiply your results.",
-      topics: ["Automated Marketing", "AI Chatbots", "Smart Fulfillment", "Performance Optimization"]
+      title: "Automation Over Manual Work",
+      description: "Build systems that run 24/7 while you focus on scaling"
     },
     {
-      icon: "Brain",
-      title: "Mindset & Discipline",
-      description: "Develop the mental edge that 99% lack. Master emotional control, strategic thinking, and relentless execution.",
-      topics: ["Elite Mentality", "Emotional Control", "Strategic Planning", "Consistent Action"]
+      icon: "TrendingUp",
+      title: "Data-Driven Decisions",
+      description: "Let algorithms and analytics guide your business strategy"
+    },
+    {
+      icon: "Target",
+      title: "Scale Over Grind",
+      description: "Leverage technology to multiply results without multiplying effort"
     }
   ]
 };
 
 export const courseData = {
-  title: "The Matrix Course",
-  subtitle: "YOUR PATH TO FINANCIAL FREEDOM",
-  description: "A comprehensive program covering Trading, Dropshipping, and AI Automation. Transform from beginner to confident entrepreneur across multiple income streams.",
+  title: "The Matrix Program",
+  subtitle: "YOUR PATH TO AUTOMATED INCOME",
+  description: "A comprehensive program teaching AI-powered dropshipping from zero to scale. Build automated businesses that generate income while you sleep.",
   features: [
     {
       icon: "BookOpen",
-      title: "Structured Curriculum",
-      description: "Step-by-step lessons from basics to advanced strategies"
+      title: "Complete AI Toolkit",
+      description: "Access to premium AI tools for product research and automation"
     },
     {
       icon: "Video",
-      title: "Video Training",
-      description: "High-quality recorded sessions you can watch anytime"
+      title: "Step-by-Step Training",
+      description: "Video lessons covering store setup to scaling with AI"
     },
     {
       icon: "FileText",
-      title: "Trading Guides",
-      description: "Downloadable PDFs, checklists, and strategy templates"
+      title: "Automation Blueprints",
+      description: "Proven templates for automated workflows and systems"
     },
     {
       icon: "Users",
       title: "Community Access",
-      description: "Connect with like-minded traders on the same journey"
+      description: "Connect with entrepreneurs building AI-powered businesses"
     },
     {
       icon: "BarChart3",
-      title: "Real Examples",
-      description: "Live market analysis and real trade breakdowns"
+      title: "Real Case Studies",
+      description: "Live examples of successful AI-automated stores"
     },
     {
       icon: "Award",
-      title: "Lifetime Access",
-      description: "Learn at your own pace with unlimited course access"
+      title: "Lifetime Updates",
+      description: "Stay ahead with the latest AI tools and strategies"
     }
   ],
   image: "https://images.unsplash.com/photo-1639754390580-2e7437267698"
 };
 
-export const tradingRoomData = {
-  title: "The Trading Room",
+export const communityData = {
+  title: "The AI Empire Community",
   subtitle: "COMING SOON",
-  description: "A live trading environment where members watch real-time analysis, share ideas, and learn from experienced traders in action.",
-  features: ["Live Market Analysis", "Real-Time Trade Alerts", "Community Chat", "Daily Sessions"]
+  description: "A private community where members share AI tools, winning products, automation strategies, and scale their businesses together.",
+  features: ["AI Tool Library", "Product Database", "Automation Scripts", "Weekly Live Sessions"]
 };
 
 export const authData = {
   loginPlaceholder: {
     title: "Member Login",
-    description: "Access your dashboard and continue your journey"
+    description: "Access your dashboard and automation tools"
   },
   registerPlaceholder: {
     title: "Join The Matrix",
-    description: "Start your transformation today"
+    description: "Start your automated business journey"
   }
 };
 
 export const contactData = {
   title: "Get In Touch",
   subtitle: "QUESTIONS? WE'RE HERE.",
-  description: "Have questions about The Matrix? Want to learn more before committing? Reach out and we'll get back to you.",
+  description: "Want to learn more about building AI-powered dropshipping businesses? Reach out and we'll guide you.",
   email: "contact@thematrix.com",
   socialLinks: [
     { platform: "Twitter", icon: "Twitter", url: "#" },
@@ -146,16 +109,16 @@ export const contactData = {
 
 export const footerData = {
   brand: "The Matrix",
-  tagline: "Trading Education & Mindset Development",
-  disclaimer: "This platform is for educational purposes only. We do not provide financial advice. Trading involves risk and may not be suitable for all investors. Past performance is not indicative of future results.",
+  tagline: "AI-Powered Dropshipping Education",
+  disclaimer: "This platform is for educational purposes only. Results may vary based on effort, market conditions, and implementation. Building a successful online business requires dedication and consistent work.",
   sections: [
     {
       title: "Learn",
       links: [
         { label: "About Us", href: "#about" },
         { label: "What You Learn", href: "#learn" },
-        { label: "The Course", href: "#course" },
-        { label: "Trading Room", href: "#trading-room" }
+        { label: "The Program", href: "#course" },
+        { label: "AI Systems", href: "#ai-dropshipping" }
       ]
     },
     {
@@ -163,8 +126,8 @@ export const footerData = {
       links: [
         { label: "Terms of Service", href: "#" },
         { label: "Privacy Policy", href: "#" },
-        { label: "Risk Disclosure", href: "#" },
-        { label: "Refund Policy", href: "#" }
+        { label: "Refund Policy", href: "#" },
+        { label: "Disclaimer", href: "#" }
       ]
     },
     {
