@@ -1,5 +1,6 @@
 import React from 'react';
 import { Twitter, Instagram, Youtube, MessageCircle, AlertTriangle } from 'lucide-react';
+import { footerData } from '../data/mock';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -9,10 +10,8 @@ const Footer = () => {
       <div className="container py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           <div className="lg:col-span-1">
-            <h3 className="text-2xl font-bold mb-3" style={{ color: 'var(--accent-primary)' }}>The Matrix</h3>
-            <p className="text-sm mb-6" style={{ color: 'var(--text-muted)' }}>
-              Trading Education & Mindset Development
-            </p>
+            <h3 className="text-2xl font-bold mb-3" style={{ color: 'var(--accent-primary)' }}>{footerData.brand}</h3>
+            <p className="text-sm mb-6" style={{ color: 'var(--text-muted)' }}>{footerData.tagline}</p>
             
             <div className="flex gap-3">
               <a href="#" className="w-10 h-10 rounded-lg flex items-center justify-center transition-all duration-300 hover:transform hover:-translate-y-1" style={{ background: 'var(--bg-tertiary)', color: 'var(--text-muted)' }}>
@@ -35,8 +34,8 @@ const Footer = () => {
             <ul className="space-y-3">
               <li><a href="#about" className="text-sm transition-colors duration-200" style={{ color: 'var(--text-muted)', textDecoration: 'none' }}>About Us</a></li>
               <li><a href="#learn" className="text-sm transition-colors duration-200" style={{ color: 'var(--text-muted)', textDecoration: 'none' }}>What You Learn</a></li>
-              <li><a href="#course" className="text-sm transition-colors duration-200" style={{ color: 'var(--text-muted)', textDecoration: 'none' }}>The Course</a></li>
-              <li><a href="#trading-room" className="text-sm transition-colors duration-200" style={{ color: 'var(--text-muted)', textDecoration: 'none' }}>Trading Room</a></li>
+              <li><a href="#course" className="text-sm transition-colors duration-200" style={{ color: 'var(--text-muted)', textDecoration: 'none' }}>The Program</a></li>
+              <li><a href="#ai-dropshipping" className="text-sm transition-colors duration-200" style={{ color: 'var(--text-muted)', textDecoration: 'none' }}>AI Systems</a></li>
             </ul>
           </div>
 
@@ -45,8 +44,8 @@ const Footer = () => {
             <ul className="space-y-3">
               <li><a href="#" className="text-sm transition-colors duration-200" style={{ color: 'var(--text-muted)', textDecoration: 'none' }}>Terms of Service</a></li>
               <li><a href="#" className="text-sm transition-colors duration-200" style={{ color: 'var(--text-muted)', textDecoration: 'none' }}>Privacy Policy</a></li>
-              <li><a href="#" className="text-sm transition-colors duration-200" style={{ color: 'var(--text-muted)', textDecoration: 'none' }}>Risk Disclosure</a></li>
               <li><a href="#" className="text-sm transition-colors duration-200" style={{ color: 'var(--text-muted)', textDecoration: 'none' }}>Refund Policy</a></li>
+              <li><a href="#" className="text-sm transition-colors duration-200" style={{ color: 'var(--text-muted)', textDecoration: 'none' }}>Disclaimer</a></li>
             </ul>
           </div>
 
@@ -66,17 +65,13 @@ const Footer = () => {
             <AlertTriangle size={20} style={{ color: 'var(--accent-primary)', flexShrink: 0, marginTop: '2px' }} />
             <div>
               <h5 className="font-semibold mb-2 text-sm" style={{ color: 'var(--accent-primary)' }}>Important Disclaimer</h5>
-              <p className="text-xs leading-relaxed" style={{ color: 'var(--text-muted)' }}>
-                This platform is for educational purposes only. We do not provide financial advice. Trading involves risk and may not be suitable for all investors. Past performance is not indicative of future results.
-              </p>
+              <p className="text-xs leading-relaxed" style={{ color: 'var(--text-muted)' }}>{footerData.disclaimer}</p>
             </div>
           </div>
         </div>
 
         <div className="pt-8 border-t text-center" style={{ borderColor: 'var(--border-subtle)' }}>
-          <p className="text-sm" style={{ color: 'var(--text-muted)' }}>
-            © {currentYear} The Matrix. All rights reserved.
-          </p>
+          <p className="text-sm" style={{ color: 'var(--text-muted)' }}>© {currentYear} {footerData.brand}. All rights reserved.</p>
         </div>
       </div>
     </footer>
