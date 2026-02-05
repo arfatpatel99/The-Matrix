@@ -1,4 +1,5 @@
 import React from 'react';
+import Header from '../components/Header';
 import Hero from '../components/Hero';
 import About from '../components/About';
 import WhatYouLearn from '../components/WhatYouLearn';
@@ -13,6 +14,7 @@ import Footer from '../components/Footer';
 const Home = () => {
   return (
     <div className="min-h-screen" style={{ background: 'var(--bg-primary)' }}>
+      <Header />
       <Hero />
       <About />
       <WhatYouLearn />
