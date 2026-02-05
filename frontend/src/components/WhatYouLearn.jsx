@@ -2,11 +2,14 @@ import React from 'react';
 import { LineChart, Brain, Shield, Zap } from 'lucide-react';
 import { learningData } from '../data/mock';
 
-const iconMap = {
-  LineChart: LineChart,
-  Brain: Brain,
-  Shield: Shield,
-  Zap: Zap
+const getIcon = (iconName) => {
+  switch(iconName) {
+    case 'LineChart': return LineChart;
+    case 'Brain': return Brain;
+    case 'Shield': return Shield;
+    case 'Zap': return Zap;
+    default: return LineChart;
+  }
 };
 
 const WhatYouLearn = () => {
@@ -24,7 +27,7 @@ const WhatYouLearn = () => {
         {/* Modules Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
           {learningData.modules.map((module, index) => {
-            const IconComponent = iconMap[module.icon];
+            const IconComponent = getIcon(module.icon);
             return (
               <div 
                 key={index} 

@@ -2,11 +2,14 @@ import React, { useState } from 'react';
 import { Send, Mail, Twitter, Instagram, Youtube, MessageCircle } from 'lucide-react';
 import { contactData } from '../data/mock';
 
-const iconMap = {
-  Twitter: Twitter,
-  Instagram: Instagram,
-  Youtube: Youtube,
-  MessageCircle: MessageCircle
+const getIcon = (iconName) => {
+  switch(iconName) {
+    case 'Twitter': return Twitter;
+    case 'Instagram': return Instagram;
+    case 'Youtube': return Youtube;
+    case 'MessageCircle': return MessageCircle;
+    default: return MessageCircle;
+  }
 };
 
 const Contact = () => {
@@ -147,7 +150,7 @@ const Contact = () => {
               <h4 className="font-semibold mb-4">Follow Us</h4>
               <div className="grid grid-cols-2 gap-4">
                 {contactData.socialLinks.map((social, index) => {
-                  const IconComponent = iconMap[social.icon];
+                  const IconComponent = getIcon(social.icon);
                   return (
                     <a
                       key={index}

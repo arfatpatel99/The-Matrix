@@ -2,11 +2,14 @@ import React from 'react';
 import { Target, TrendingUp, Shield, Brain } from 'lucide-react';
 import { aboutData } from '../data/mock';
 
-const iconMap = {
-  Target: Target,
-  TrendingUp: TrendingUp,
-  Shield: Shield,
-  Brain: Brain
+const getIcon = (iconName) => {
+  switch(iconName) {
+    case 'Target': return Target;
+    case 'TrendingUp': return TrendingUp;
+    case 'Shield': return Shield;
+    case 'Brain': return Brain;
+    default: return Target;
+  }
 };
 
 const About = () => {
@@ -27,7 +30,7 @@ const About = () => {
         {/* Principles Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-5xl mx-auto">
           {aboutData.principles.map((principle, index) => {
-            const IconComponent = iconMap[principle.icon];
+            const IconComponent = getIcon(principle.icon);
             return (
               <div 
                 key={index} 

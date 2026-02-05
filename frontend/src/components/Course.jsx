@@ -2,13 +2,16 @@ import React from 'react';
 import { BookOpen, Video, FileText, Users, BarChart3, Award } from 'lucide-react';
 import { courseData } from '../data/mock';
 
-const iconMap = {
-  BookOpen: BookOpen,
-  Video: Video,
-  FileText: FileText,
-  Users: Users,
-  BarChart3: BarChart3,
-  Award: Award
+const getIcon = (iconName) => {
+  switch(iconName) {
+    case 'BookOpen': return BookOpen;
+    case 'Video': return Video;
+    case 'FileText': return FileText;
+    case 'Users': return Users;
+    case 'BarChart3': return BarChart3;
+    case 'Award': return Award;
+    default: return BookOpen;
+  }
 };
 
 const Course = () => {
@@ -42,7 +45,7 @@ const Course = () => {
           {/* Features List */}
           <div className="order-1 lg:order-2 space-y-4">
             {courseData.features.map((feature, index) => {
-              const IconComponent = iconMap[feature.icon];
+              const IconComponent = getIcon(feature.icon);
               return (
                 <div 
                   key={index}
