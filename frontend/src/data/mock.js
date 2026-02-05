@@ -98,10 +98,10 @@ export const contactData = {
   title: "Get In Touch",
   subtitle: "QUESTIONS? WE'RE HERE.",
   description: "Want to learn more about building AI-powered dropshipping businesses? Reach out and we'll guide you.",
-  email: "contact@thematrix.com",
+  email: "thematrixcourse@gmail.com",
   socialLinks: [
     { platform: "Twitter", icon: "Twitter", url: "#" },
-    { platform: "Instagram", icon: "Instagram", url: "#" },
+    { platform: "Instagram", icon: "Instagram", url: "https://www.instagram.com/thematrix.university_/?utm_source=ig_web_button_share_sheet" },
     { platform: "Youtube", icon: "Youtube", url: "#" },
     { platform: "Telegram", icon: "MessageCircle", url: "#" }
   ]

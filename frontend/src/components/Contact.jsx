@@ -87,7 +87,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold mb-1">Email Us</h4>
-                  <a href="mailto:contact@thematrix.com" style={{ color: 'var(--accent-primary)' }}>contact@thematrix.com</a>
+                  <a href="mailto:thematrixcourse@gmail.com" style={{ color: 'var(--accent-primary)' }}>thematrixcourse@gmail.com</a>
                 </div>
               </div>
             </div>

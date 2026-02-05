@@ -218,8 +218,8 @@ const PremiumAccess = () => {
         }}>
           <p style={{ color: 'var(--text-muted)' }}>
             Need help? Contact support via the channels above or email{' '}
-            <a href="mailto:contact@thematrix.com" style={{ color: 'var(--accent-primary)' }}>
-              contact@thematrix.com
+            <a href="mailto:thematrixcourse@gmail.com" style={{ color: 'var(--accent-primary)' }}>
+              thematrixcourse@gmail.com
             </a>
           </p>
         </div>

@@ -17,7 +17,7 @@ const Footer = () => {
               <a href="#" className="w-10 h-10 rounded-lg flex items-center justify-center transition-all duration-300 hover:transform hover:-translate-y-1" style={{ background: 'var(--bg-tertiary)', color: 'var(--text-muted)' }}>
                 <Twitter size={18} />
               </a>
-              <a href="#" className="w-10 h-10 rounded-lg flex items-center justify-center transition-all duration-300 hover:transform hover:-translate-y-1" style={{ background: 'var(--bg-tertiary)', color: 'var(--text-muted)' }}>
+              <a href="https://www.instagram.com/thematrix.university_/?utm_source=ig_web_button_share_sheet" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-lg flex items-center justify-center transition-all duration-300 hover:transform hover:-translate-y-1" style={{ background: 'var(--bg-tertiary)', color: 'var(--text-muted)' }}>
                 <Instagram size={18} />
               </a>
               <a href="#" className="w-10 h-10 rounded-lg flex items-center justify-center transition-all duration-300 hover:transform hover:-translate-y-1" style={{ background: 'var(--bg-tertiary)', color: 'var(--text-muted)' }}>
@@ -54,7 +54,7 @@ const Footer = () => {
             <ul className="space-y-3">
               <li><a href="#contact" className="text-sm transition-colors duration-200" style={{ color: 'var(--text-muted)', textDecoration: 'none' }}>Contact Us</a></li>
               <li><a href="#" className="text-sm transition-colors duration-200" style={{ color: 'var(--text-muted)', textDecoration: 'none' }}>Twitter</a></li>
-              <li><a href="#" className="text-sm transition-colors duration-200" style={{ color: 'var(--text-muted)', textDecoration: 'none' }}>Instagram</a></li>
+              <li><a href="https://www.instagram.com/thematrix.university_/?utm_source=ig_web_button_share_sheet" target="_blank" rel="noopener noreferrer" className="text-sm transition-colors duration-200" style={{ color: 'var(--text-muted)', textDecoration: 'none' }}>Instagram</a></li>
               <li><a href="#" className="text-sm transition-colors duration-200" style={{ color: 'var(--text-muted)', textDecoration: 'none' }}>YouTube</a></li>
             </ul>
           </div>
