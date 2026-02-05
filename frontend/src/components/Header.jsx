@@ -95,6 +95,19 @@ const Header = () => {
             >
               Join Now
             </button>
+            <a 
+              href="/premium"
+              className="text-sm font-medium transition-colors duration-200"
+              style={{ 
+                color: 'var(--text-secondary)',
+                textDecoration: 'none',
+                marginLeft: '16px'
+              }}
+              onMouseOver={(e) => e.target.style.color = 'var(--accent-primary)'}
+              onMouseOut={(e) => e.target.style.color = 'var(--text-secondary)'}
+            >
+              Members
+            </a>
           </nav>
 
           {/* Mobile Menu Button */}
