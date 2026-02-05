@@ -1,18 +1,5 @@
 import React from 'react';
 import { BookOpen, Video, FileText, Users, BarChart3, Award } from 'lucide-react';
-import { courseData } from '../data/mock';
-
-const getIcon = (iconName) => {
-  switch(iconName) {
-    case 'BookOpen': return BookOpen;
-    case 'Video': return Video;
-    case 'FileText': return FileText;
-    case 'Users': return Users;
-    case 'BarChart3': return BarChart3;
-    case 'Award': return Award;
-    default: return BookOpen;
-  }
-};
 
 const Course = () => {
   return (
@@ -21,11 +8,11 @@ const Course = () => {
         {/* Section Header */}
         <div className="text-center mb-16">
           <div className="text-sm font-semibold mb-3 tracking-wider" style={{ color: 'var(--accent-primary)' }}>
-            {courseData.subtitle}
+            YOUR PATH TO FINANCIAL FREEDOM
           </div>
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">{courseData.title}</h2>
+          <h2 className="text-4xl md:text-5xl font-bold mb-6">The Matrix Course</h2>
           <p className="text-lg md:text-xl max-w-3xl mx-auto" style={{ color: 'var(--text-secondary)', lineHeight: '1.6' }}>
-            {courseData.description}
+            A comprehensive program designed to transform beginners into confident traders and elevate experienced traders to the next level.
           </p>
         </div>
 
@@ -35,7 +22,7 @@ const Course = () => {
           <div className="order-2 lg:order-1">
             <div className="rounded-2xl overflow-hidden border" style={{ borderColor: 'var(--border-subtle)' }}>
               <img 
-                src={courseData.image}
+                src="https://images.unsplash.com/photo-1639754390580-2e7437267698"
                 alt="Trading Course"
                 className="w-full h-full object-cover"
               />
@@ -44,27 +31,65 @@ const Course = () => {
 
           {/* Features List */}
           <div className="order-1 lg:order-2 space-y-4">
-            {courseData.features.map((feature, index) => {
-              const IconComponent = getIcon(feature.icon);
-              return (
-                <div 
-                  key={index}
-                  className="flex items-start gap-4 p-5 rounded-xl transition-all duration-300 hover:transform hover:-translate-y-1"
-                  style={{ background: 'var(--bg-secondary)' }}
-                >
-                  <div className="flex-shrink-0 w-10 h-10 rounded-lg flex items-center justify-center" 
-                    style={{ background: 'var(--accent-bg)' }}>
-                    <IconComponent size={20} style={{ color: 'var(--accent-primary)' }} />
-                  </div>
-                  <div>
-                    <h4 className="font-semibold mb-1">{feature.title}</h4>
-                    <p className="text-sm" style={{ color: 'var(--text-muted)' }}>
-                      {feature.description}
-                    </p>
-                  </div>
-                </div>
-              );
-            })}
+            <div className="flex items-start gap-4 p-5 rounded-xl transition-all duration-300 hover:transform hover:-translate-y-1" style={{ background: 'var(--bg-secondary)' }}>
+              <div className="flex-shrink-0 w-10 h-10 rounded-lg flex items-center justify-center" style={{ background: 'var(--accent-bg)' }}>
+                <BookOpen size={20} style={{ color: 'var(--accent-primary)' }} />
+              </div>
+              <div>
+                <h4 className="font-semibold mb-1">Structured Curriculum</h4>
+                <p className="text-sm" style={{ color: 'var(--text-muted)' }}>Step-by-step lessons from basics to advanced strategies</p>
+              </div>
+            </div>
+
+            <div className="flex items-start gap-4 p-5 rounded-xl transition-all duration-300 hover:transform hover:-translate-y-1" style={{ background: 'var(--bg-secondary)' }}>
+              <div className="flex-shrink-0 w-10 h-10 rounded-lg flex items-center justify-center" style={{ background: 'var(--accent-bg)' }}>
+                <Video size={20} style={{ color: 'var(--accent-primary)' }} />
+              </div>
+              <div>
+                <h4 className="font-semibold mb-1">Video Training</h4>
+                <p className="text-sm" style={{ color: 'var(--text-muted)' }}>High-quality recorded sessions you can watch anytime</p>
+              </div>
+            </div>
+
+            <div className="flex items-start gap-4 p-5 rounded-xl transition-all duration-300 hover:transform hover:-translate-y-1" style={{ background: 'var(--bg-secondary)' }}>
+              <div className="flex-shrink-0 w-10 h-10 rounded-lg flex items-center justify-center" style={{ background: 'var(--accent-bg)' }}>
+                <FileText size={20} style={{ color: 'var(--accent-primary)' }} />
+              </div>
+              <div>
+                <h4 className="font-semibold mb-1">Trading Guides</h4>
+                <p className="text-sm" style={{ color: 'var(--text-muted)' }}>Downloadable PDFs, checklists, and strategy templates</p>
+              </div>
+            </div>
+
+            <div className="flex items-start gap-4 p-5 rounded-xl transition-all duration-300 hover:transform hover:-translate-y-1" style={{ background: 'var(--bg-secondary)' }}>
+              <div className="flex-shrink-0 w-10 h-10 rounded-lg flex items-center justify-center" style={{ background: 'var(--accent-bg)' }}>
+                <Users size={20} style={{ color: 'var(--accent-primary)' }} />
+              </div>
+              <div>
+                <h4 className="font-semibold mb-1">Community Access</h4>
+                <p className="text-sm" style={{ color: 'var(--text-muted)' }}>Connect with like-minded traders on the same journey</p>
+              </div>
+            </div>
+
+            <div className="flex items-start gap-4 p-5 rounded-xl transition-all duration-300 hover:transform hover:-translate-y-1" style={{ background: 'var(--bg-secondary)' }}>
+              <div className="flex-shrink-0 w-10 h-10 rounded-lg flex items-center justify-center" style={{ background: 'var(--accent-bg)' }}>
+                <BarChart3 size={20} style={{ color: 'var(--accent-primary)' }} />
+              </div>
+              <div>
+                <h4 className="font-semibold mb-1">Real Examples</h4>
+                <p className="text-sm" style={{ color: 'var(--text-muted)' }}>Live market analysis and real trade breakdowns</p>
+              </div>
+            </div>
+
+            <div className="flex items-start gap-4 p-5 rounded-xl transition-all duration-300 hover:transform hover:-translate-y-1" style={{ background: 'var(--bg-secondary)' }}>
+              <div className="flex-shrink-0 w-10 h-10 rounded-lg flex items-center justify-center" style={{ background: 'var(--accent-bg)' }}>
+                <Award size={20} style={{ color: 'var(--accent-primary)' }} />
+              </div>
+              <div>
+                <h4 className="font-semibold mb-1">Lifetime Access</h4>
+                <p className="text-sm" style={{ color: 'var(--text-muted)' }}>Learn at your own pace with unlimited course access</p>
+              </div>
+            </div>
           </div>
         </div>
 
