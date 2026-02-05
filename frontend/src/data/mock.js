@@ -2,8 +2,8 @@
 
 export const heroData = {
   headline: "BREAK FREE FROM THE SYSTEM",
-  subheadline: "Master Trading. Build Wealth. Control Your Destiny.",
-  description: "Join an elite community of disciplined traders who refuse to settle for mediocrity. The Matrix is where mindset meets strategy.",
+  subheadline: "Master Trading. Build Wealth. Scale with AI. Control Your Destiny.",
+  description: "Join an elite community mastering trading, dropshipping, and AI automation. The Matrix is where discipline meets opportunity.",
   ctaText: "Enter The Matrix",
   secondaryCtaText: "Learn More",
   heroImage: "https://images.unsplash.com/photo-1745509267699-1b1db256601e"
@@ -12,7 +12,7 @@ export const heroData = {
 export const aboutData = {
   title: "About The Matrix",
   subtitle: "WHERE DISCIPLINE MEETS OPPORTUNITY",
-  description: "The Matrix isn't just another trading course. It's a complete transformation of how you think about money, risk, and success. We don't promise overnight riches. We deliver the tools, mindset, and strategies that separate winners from dreamers.",
+  description: "The Matrix isn't just another course. It's a complete transformation of how you think about money, business, and success. Master trading, build automated dropshipping empires, and leverage AI tools to scale. We don't promise overnight riches. We deliver the systems, mindset, and strategies that separate winners from dreamers.",
   principles: [
     {
       icon: "Target",
@@ -44,26 +44,32 @@ export const learningData = {
     {
       icon: "LineChart",
       title: "Trading Fundamentals",
-      description: "Master chart patterns, technical analysis, and market structure. Understand what moves markets and how to capitalize on it.",
-      topics: ["Price Action", "Support & Resistance", "Trend Analysis", "Market Psychology"]
+      description: "Master chart patterns, technical analysis, and market structure. Understand what moves markets and capitalize on it.",
+      topics: ["Price Action", "Technical Analysis", "Risk Management", "Market Psychology"]
     },
     {
-      icon: "Brain",
-      title: "Elite Mindset",
-      description: "Develop the mental fortitude of professional traders. Control emotions, manage stress, and think like the top 1%.",
-      topics: ["Emotional Control", "Discipline Training", "Winning Mentality", "Focus & Clarity"]
+      icon: "Package",
+      title: "Dropshipping Business Model",
+      description: "Build a profitable online store from scratch. Learn product selection, supplier sourcing, and customer acquisition systems.",
+      topics: ["Winning Products", "Store Setup", "Supplier Networks", "Order Fulfillment"]
     },
     {
-      icon: "Shield",
-      title: "Risk Management",
-      description: "Protect your capital like a vault. Learn position sizing, stop-loss strategies, and portfolio management that keeps you in the game.",
-      topics: ["Position Sizing", "Stop Loss Strategy", "Capital Preservation", "Portfolio Balance"]
+      icon: "Sparkles",
+      title: "AI Tools for Product Research",
+      description: "Leverage AI to find viral products before the competition. Automate market research and trend analysis with cutting-edge tools.",
+      topics: ["AI Product Finders", "Trend Analysis", "Competitor Research", "Data-Driven Selection"]
     },
     {
       icon: "Zap",
-      title: "Execution Excellence",
-      description: "Perfect your entry and exit timing. Learn to execute trades with confidence and precision under any market condition.",
-      topics: ["Entry Strategies", "Exit Timing", "Trade Management", "Performance Tracking"]
+      title: "AI Automation for Scaling",
+      description: "Scale your business with AI-powered automation. From customer service to ad optimization, let technology multiply your results.",
+      topics: ["Automated Marketing", "AI Chatbots", "Smart Fulfillment", "Performance Optimization"]
+    },
+    {
+      icon: "Brain",
+      title: "Mindset & Discipline",
+      description: "Develop the mental edge that 99% lack. Master emotional control, strategic thinking, and relentless execution.",
+      topics: ["Elite Mentality", "Emotional Control", "Strategic Planning", "Consistent Action"]
     }
   ]
 };
@@ -71,7 +77,7 @@ export const learningData = {
 export const courseData = {
   title: "The Matrix Course",
   subtitle: "YOUR PATH TO FINANCIAL FREEDOM",
-  description: "A comprehensive program designed to transform beginners into confident traders and elevate experienced traders to the next level.",
+  description: "A comprehensive program covering Trading, Dropshipping, and AI Automation. Transform from beginner to confident entrepreneur across multiple income streams.",
   features: [
     {
       icon: "BookOpen",

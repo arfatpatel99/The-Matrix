@@ -93,14 +93,50 @@ const Course = () => {
           </div>
         </div>
 
+        {/* Three Pillars Section */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto mb-16">
+          <div className="p-8 rounded-2xl text-center" style={{ 
+            background: 'var(--bg-tertiary)',
+            border: '2px solid var(--border-subtle)'
+          }}>
+            <div className="text-5xl font-black mb-4" style={{ color: 'var(--accent-primary)' }}>01</div>
+            <h4 className="text-xl font-bold mb-3">Trading Mastery</h4>
+            <p className="text-sm" style={{ color: 'var(--text-muted)' }}>
+              Master technical analysis, risk management, and market psychology to trade with precision.
+            </p>
+          </div>
+
+          <div className="p-8 rounded-2xl text-center" style={{ 
+            background: 'var(--bg-tertiary)',
+            border: '2px solid var(--border-subtle)'
+          }}>
+            <div className="text-5xl font-black mb-4" style={{ color: 'var(--accent-primary)' }}>02</div>
+            <h4 className="text-xl font-bold mb-3">Dropshipping Empire</h4>
+            <p className="text-sm" style={{ color: 'var(--text-muted)' }}>
+              Build automated online stores that generate passive income with winning products and proven systems.
+            </p>
+          </div>
+
+          <div className="p-8 rounded-2xl text-center" style={{ 
+            background: 'var(--bg-tertiary)',
+            border: '2px solid var(--border-subtle)'
+          }}>
+            <div className="text-5xl font-black mb-4" style={{ color: 'var(--accent-primary)' }}>03</div>
+            <h4 className="text-xl font-bold mb-3">AI Automation</h4>
+            <p className="text-sm" style={{ color: 'var(--text-muted)' }}>
+              Leverage AI tools for product research, marketing automation, and scaling your business exponentially.
+            </p>
+          </div>
+        </div>
+
         {/* Value Proposition */}
         <div className="max-w-4xl mx-auto text-center p-12 rounded-2xl" style={{ 
           background: 'linear-gradient(135deg, var(--bg-secondary) 0%, var(--bg-tertiary) 100%)',
           border: '1px solid var(--border-subtle)'
         }}>
-          <h3 className="text-3xl font-bold mb-4">Transform Your Trading Game</h3>
+          <h3 className="text-3xl font-bold mb-4">Master 3 Income Streams, Control Your Future</h3>
           <p className="text-lg mb-8" style={{ color: 'var(--text-secondary)' }}>
-            Stop gambling with your money. Start trading with confidence, precision, and a proven system that works.
+            Stop relying on a single source. Build wealth through Trading, Dropshipping, and AI Automation. Diversify like the elite.
           </p>
           <button className="btn-primary text-lg px-12">
             Get Started Now
