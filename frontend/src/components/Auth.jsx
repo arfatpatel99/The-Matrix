@@ -1,42 +1,26 @@
 import React from 'react';
 import { LogIn, UserPlus } from 'lucide-react';
-import { authData } from '../data/mock';
 
 const Auth = () => {
   return (
     <section id="auth" className="section-spacing" style={{ background: 'var(--bg-primary)' }}>
       <div className="container">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-          {/* Login Section */}
-          <div className="p-8 rounded-2xl border" style={{ 
-            background: 'var(--bg-secondary)',
-            borderColor: 'var(--border-subtle)'
-          }}>
+          <div className="p-8 rounded-2xl border" style={{ background: 'var(--bg-secondary)', borderColor: 'var(--border-subtle)' }}>
             <div className="flex items-center gap-3 mb-6">
               <div className="w-12 h-12 rounded-lg flex items-center justify-center" style={{ background: 'var(--accent-bg)' }}>
                 <LogIn size={24} style={{ color: 'var(--accent-primary)' }} />
               </div>
-              <h3 className="text-2xl font-bold">{authData.loginPlaceholder.title}</h3>
+              <h3 className="text-2xl font-bold">Member Login</h3>
             </div>
             
             <p className="mb-8" style={{ color: 'var(--text-muted)' }}>
-              {authData.loginPlaceholder.description}
+              Access your dashboard and continue your journey
             </p>
 
-            {/* Login Form Placeholder */}
             <div className="space-y-4">
-              <input 
-                type="email" 
-                placeholder="Email address" 
-                className="input-field"
-                disabled
-              />
-              <input 
-                type="password" 
-                placeholder="Password" 
-                className="input-field"
-                disabled
-              />
+              <input type="email" placeholder="Email address" className="input-field" disabled />
+              <input type="password" placeholder="Password" className="input-field" disabled />
               <button className="btn-primary w-full" disabled style={{ opacity: 0.6, cursor: 'not-allowed' }}>
                 <LogIn size={20} />
                 Login (Coming Soon)
@@ -44,48 +28,26 @@ const Auth = () => {
             </div>
 
             <div className="mt-6 text-center">
-              <a href="#" className="text-sm" style={{ color: 'var(--accent-primary)' }}>
-                Forgot password?
-              </a>
+              <a href="#" className="text-sm" style={{ color: 'var(--accent-primary)' }}>Forgot password?</a>
             </div>
           </div>
 
-          {/* Register Section */}
-          <div className="p-8 rounded-2xl border" style={{ 
-            background: 'var(--bg-secondary)',
-            borderColor: 'var(--border-subtle)'
-          }}>
+          <div className="p-8 rounded-2xl border" style={{ background: 'var(--bg-secondary)', borderColor: 'var(--border-subtle)' }}>
             <div className="flex items-center gap-3 mb-6">
               <div className="w-12 h-12 rounded-lg flex items-center justify-center" style={{ background: 'var(--accent-bg)' }}>
                 <UserPlus size={24} style={{ color: 'var(--accent-primary)' }} />
               </div>
-              <h3 className="text-2xl font-bold">{authData.registerPlaceholder.title}</h3>
+              <h3 className="text-2xl font-bold">Join The Matrix</h3>
             </div>
             
             <p className="mb-8" style={{ color: 'var(--text-muted)' }}>
-              {authData.registerPlaceholder.description}
+              Start your transformation today
             </p>
 
-            {/* Register Form Placeholder */}
             <div className="space-y-4">
-              <input 
-                type="text" 
-                placeholder="Full name" 
-                className="input-field"
-                disabled
-              />
-              <input 
-                type="email" 
-                placeholder="Email address" 
-                className="input-field"
-                disabled
-              />
-              <input 
-                type="password" 
-                placeholder="Create password" 
-                className="input-field"
-                disabled
-              />
+              <input type="text" placeholder="Full name" className="input-field" disabled />
+              <input type="email" placeholder="Email address" className="input-field" disabled />
+              <input type="password" placeholder="Create password" className="input-field" disabled />
               <button className="btn-primary w-full" disabled style={{ opacity: 0.6, cursor: 'not-allowed' }}>
                 <UserPlus size={20} />
                 Sign Up (Coming Soon)
