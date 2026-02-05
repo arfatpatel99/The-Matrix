@@ -4,6 +4,7 @@ import About from '../components/About';
 import WhatYouLearn from '../components/WhatYouLearn';
 import AIDropshipping from '../components/AIDropshipping';
 import Course from '../components/Course';
+import Payment from '../components/Payment';
 import Community from '../components/Community';
 import Auth from '../components/Auth';
 import Contact from '../components/Contact';
@@ -17,6 +18,7 @@ const Home = () => {
       <WhatYouLearn />
       <AIDropshipping />
       <Course />
+      <Payment />
       <Community />
       <Auth />
       <Contact />
