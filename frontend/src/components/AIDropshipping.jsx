@@ -1,6 +1,5 @@
 import React from 'react';
 import { TrendingUp, Store, Target, Sparkles } from 'lucide-react';
-import { aiDropshippingData } from '../data/aiDropshippingData';
 
 const AIDropshipping = () => {
   return (
@@ -9,11 +8,11 @@ const AIDropshipping = () => {
         {/* Section Header */}
         <div className="text-center mb-16">
           <div className="text-sm font-semibold mb-3 tracking-wider" style={{ color: 'var(--accent-primary)' }}>
-            {aiDropshippingData.subtitle}
+            AUTOMATED WEALTH CREATION
           </div>
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">{aiDropshippingData.title}</h2>
+          <h2 className="text-4xl md:text-5xl font-bold mb-6">AI & Dropshipping Systems</h2>
           <p className="text-lg md:text-xl max-w-3xl mx-auto" style={{ color: 'var(--text-secondary)', lineHeight: '1.6' }}>
-            {aiDropshippingData.description}
+            Learn how to build automated online businesses using AI tools, winning products, and smart systems that work while you sleep.
           </p>
         </div>
 
@@ -22,16 +21,18 @@ const AIDropshipping = () => {
           background: 'var(--bg-primary)',
           border: '1px solid var(--border-subtle)'
         }}>
-          {aiDropshippingData.stats.map((stat, index) => (
-            <div key={index} className="text-center">
-              <div className="text-4xl font-bold mb-2" style={{ color: 'var(--accent-primary)' }}>
-                {stat.value}
-              </div>
-              <div className="text-sm" style={{ color: 'var(--text-muted)' }}>
-                {stat.label}
-              </div>
-            </div>
-          ))}
+          <div className="text-center">
+            <div className="text-4xl font-bold mb-2" style={{ color: 'var(--accent-primary)' }}>10x</div>
+            <div className="text-sm" style={{ color: 'var(--text-muted)' }}>Faster Product Research</div>
+          </div>
+          <div className="text-center">
+            <div className="text-4xl font-bold mb-2" style={{ color: 'var(--accent-primary)' }}>80%</div>
+            <div className="text-sm" style={{ color: 'var(--text-muted)' }}>Time Saved on Operations</div>
+          </div>
+          <div className="text-center">
+            <div className="text-4xl font-bold mb-2" style={{ color: 'var(--accent-primary)' }}>24/7</div>
+            <div className="text-sm" style={{ color: 'var(--text-muted)' }}>Automated Systems Running</div>
+          </div>
         </div>
 
         {/* Three Pillars */}
@@ -40,17 +41,27 @@ const AIDropshipping = () => {
             <div className="w-16 h-16 rounded-2xl flex items-center justify-center mb-6" style={{ background: 'var(--accent-bg)' }}>
               <TrendingUp size={32} style={{ color: 'var(--accent-primary)' }} />
             </div>
-            <h3 className="text-xl font-bold mb-3">{aiDropshippingData.pillars[0].title}</h3>
+            <h3 className="text-xl font-bold mb-3">Product Research with AI</h3>
             <p className="mb-6 text-sm" style={{ color: 'var(--text-secondary)', lineHeight: '1.6' }}>
-              {aiDropshippingData.pillars[0].description}
+              Use AI-powered tools to discover winning products before they saturate the market.
             </p>
             <div className="space-y-2">
-              {aiDropshippingData.pillars[0].features.map((feature, idx) => (
-                <div key={idx} className="flex items-center gap-2">
-                  <div className="w-1.5 h-1.5 rounded-full" style={{ background: 'var(--accent-primary)' }}></div>
-                  <span className="text-sm" style={{ color: 'var(--text-muted)' }}>{feature}</span>
-                </div>
-              ))}
+              <div className="flex items-center gap-2">
+                <div className="w-1.5 h-1.5 rounded-full" style={{ background: 'var(--accent-primary)' }}></div>
+                <span className="text-sm" style={{ color: 'var(--text-muted)' }}>AI trend prediction algorithms</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <div className="w-1.5 h-1.5 rounded-full" style={{ background: 'var(--accent-primary)' }}></div>
+                <span className="text-sm" style={{ color: 'var(--text-muted)' }}>Automated competitor analysis</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <div className="w-1.5 h-1.5 rounded-full" style={{ background: 'var(--accent-primary)' }}></div>
+                <span className="text-sm" style={{ color: 'var(--text-muted)' }}>Real-time market scanning</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <div className="w-1.5 h-1.5 rounded-full" style={{ background: 'var(--accent-primary)' }}></div>
+                <span className="text-sm" style={{ color: 'var(--text-muted)' }}>Profit margin calculators</span>
+              </div>
             </div>
           </div>
 
@@ -58,17 +69,27 @@ const AIDropshipping = () => {
             <div className="w-16 h-16 rounded-2xl flex items-center justify-center mb-6" style={{ background: 'var(--accent-bg)' }}>
               <Store size={32} style={{ color: 'var(--accent-primary)' }} />
             </div>
-            <h3 className="text-xl font-bold mb-3">{aiDropshippingData.pillars[1].title}</h3>
+            <h3 className="text-xl font-bold mb-3">Store Automation</h3>
             <p className="mb-6 text-sm" style={{ color: 'var(--text-secondary)', lineHeight: '1.6' }}>
-              {aiDropshippingData.pillars[1].description}
+              Build high-converting stores that run on autopilot with smart automation systems.
             </p>
             <div className="space-y-2">
-              {aiDropshippingData.pillars[1].features.map((feature, idx) => (
-                <div key={idx} className="flex items-center gap-2">
-                  <div className="w-1.5 h-1.5 rounded-full" style={{ background: 'var(--accent-primary)' }}></div>
-                  <span className="text-sm" style={{ color: 'var(--text-muted)' }}>{feature}</span>
-                </div>
-              ))}
+              <div className="flex items-center gap-2">
+                <div className="w-1.5 h-1.5 rounded-full" style={{ background: 'var(--accent-primary)' }}></div>
+                <span className="text-sm" style={{ color: 'var(--text-muted)' }}>Automated order processing</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <div className="w-1.5 h-1.5 rounded-full" style={{ background: 'var(--accent-primary)' }}></div>
+                <span className="text-sm" style={{ color: 'var(--text-muted)' }}>AI-powered product descriptions</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <div className="w-1.5 h-1.5 rounded-full" style={{ background: 'var(--accent-primary)' }}></div>
+                <span className="text-sm" style={{ color: 'var(--text-muted)' }}>Smart inventory management</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <div className="w-1.5 h-1.5 rounded-full" style={{ background: 'var(--accent-primary)' }}></div>
+                <span className="text-sm" style={{ color: 'var(--text-muted)' }}>Dynamic pricing optimization</span>
+              </div>
             </div>
           </div>
 
@@ -76,17 +97,27 @@ const AIDropshipping = () => {
             <div className="w-16 h-16 rounded-2xl flex items-center justify-center mb-6" style={{ background: 'var(--accent-bg)' }}>
               <Target size={32} style={{ color: 'var(--accent-primary)' }} />
             </div>
-            <h3 className="text-xl font-bold mb-3">{aiDropshippingData.pillars[2].title}</h3>
+            <h3 className="text-xl font-bold mb-3">Marketing & Scaling</h3>
             <p className="mb-6 text-sm" style={{ color: 'var(--text-secondary)', lineHeight: '1.6' }}>
-              {aiDropshippingData.pillars[2].description}
+              Scale your business exponentially with AI-driven marketing and optimization strategies.
             </p>
             <div className="space-y-2">
-              {aiDropshippingData.pillars[2].features.map((feature, idx) => (
-                <div key={idx} className="flex items-center gap-2">
-                  <div className="w-1.5 h-1.5 rounded-full" style={{ background: 'var(--accent-primary)' }}></div>
-                  <span className="text-sm" style={{ color: 'var(--text-muted)' }}>{feature}</span>
-                </div>
-              ))}
+              <div className="flex items-center gap-2">
+                <div className="w-1.5 h-1.5 rounded-full" style={{ background: 'var(--accent-primary)' }}></div>
+                <span className="text-sm" style={{ color: 'var(--text-muted)' }}>AI ad targeting optimization</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <div className="w-1.5 h-1.5 rounded-full" style={{ background: 'var(--accent-primary)' }}></div>
+                <span className="text-sm" style={{ color: 'var(--text-muted)' }}>Automated email sequences</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <div className="w-1.5 h-1.5 rounded-full" style={{ background: 'var(--accent-primary)' }}></div>
+                <span className="text-sm" style={{ color: 'var(--text-muted)' }}>Customer behavior prediction</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <div className="w-1.5 h-1.5 rounded-full" style={{ background: 'var(--accent-primary)' }}></div>
+                <span className="text-sm" style={{ color: 'var(--text-muted)' }}>ROI maximization systems</span>
+              </div>
             </div>
           </div>
         </div>
@@ -95,7 +126,7 @@ const AIDropshipping = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center max-w-6xl mx-auto mb-16">
           <div className="rounded-2xl overflow-hidden border" style={{ borderColor: 'var(--border-subtle)' }}>
             <img 
-              src={aiDropshippingData.image}
+              src="https://images.unsplash.com/photo-1639389016105-2fb11199fb6b"
               alt="AI Dropshipping"
               className="w-full h-full object-cover"
             />
@@ -114,10 +145,10 @@ const AIDropshipping = () => {
               borderLeft: '4px solid var(--accent-primary)'
             }}>
               <p className="italic mb-3" style={{ color: 'var(--text-primary)' }}>
-                "{aiDropshippingData.testimonial.quote}"
+                "The Matrix showed me how to combine dropshipping with AI automation. I went from zero to $50K/month in 4 months. The systems do the heavy lifting."
               </p>
               <div className="text-sm" style={{ color: 'var(--accent-primary)' }}>
-                — {aiDropshippingData.testimonial.author}
+                — Matrix Member
               </div>
             </div>
             <button className="btn-primary">
